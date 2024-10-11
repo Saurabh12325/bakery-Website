@@ -1,0 +1,26 @@
+
+.about{
+    height:100%;
+    width: 100%;
+    border: 2px solid black;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    text-align: center;
+   
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#main{
+    background-color: brown;
+}
+@media (min-width:440px) {
+    h3 {
+        color: blue;
+    }
+    .one {
+        color:brown;
+    }
+}
+h3:hover{
+    color: black;
+}

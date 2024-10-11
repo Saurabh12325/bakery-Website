@@ -1,0 +1,824 @@
+
+/* gallery section  */
+
+.logo{
+      
+       
+    position: relative;
+    left: 7%;
+    top: 50%;
+    
+
+    
+}
+.logo img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+flex-wrap: wrap;
+
+}
+
+nav {
+
+    width: 100%;
+    height: 50px;
+    /* background-color:rgb(240, 240, 25); */
+    display: flex;
+    justify-content: flex-end;
+    gap: 120px;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 4px;
+    /* position: fixed; */
+    z-index: 6;
+    background: rgba(124, 4, 4, 0.7);
+}
+
+.one {
+  
+    width: 100px;
+      color: rgb(97, 20, 20);
+      text-decoration: none;
+      position: relative;
+      right: 15px;
+      flex-wrap: wrap;
+  }
+  
+      
+  
+  div a {
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+  
+  }
+  h5:hover{
+    cursor: grab;
+    color: rgb(249, 155, 170);
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+   }
+
+
+
+.search {
+    display: flex;
+    border-radius: 20%;
+    position: relative;
+    left: 3%;
+     
+
+
+}
+
+button {
+    
+    background-color:white;
+    position: relative;
+    right: 100%;
+    color: rgb(12, 0, 0);
+    border-radius: 20%;
+}
+
+
+
+
+.cakesection {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 100px;
+    flex-wrap: wrap;
+
+
+}
+.cake1 {
+    height: 300px;
+    width: 300px;
+    border:2px solid black;
+    box-shadow: none;
+    /* background-image: url(gulabjamuncake.webp); */
+    background-size: cover;
+    border-radius: 20px;
+   
+  
+}
+.cake1 img{
+    width: 100%;
+    height: 80%;
+    /* border:2px solid black; */
+    
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake1 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+
+.cake2 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: none;
+    
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.cake2 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius:20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake2 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+.cake3 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: none;
+    /* background-image: url(); */
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.cake3 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake3 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+/* cake4 */
+
+.cake4 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: none;
+    background-image: url();
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.cake4 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake4 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+/* cake section 2 */
+.cakesection2 {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 230px;
+    flex-wrap: wrap;
+}
+
+.cake5 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: none;
+    /* background-image: url(); */
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.cake5 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake5 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+
+.cake6 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow:none;
+    
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.cake6 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake6 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+/* cake 7 */
+
+.cake7 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: none;
+    /* background-image: url(BanoffeeHigh_400x400.webp); */
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+
+
+.cake7 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake7 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+
+.cake8 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow:none;
+    /* background-image: url(); */
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.cake8 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake8 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+/* cake section 3 */
+
+.cakesection3 {
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 450px;
+    flex-wrap: wrap;
+}
+.cake9 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: none;
+    /* background-image: url(cupcake1.webp); */
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.cake9 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake9 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+
+.cake10 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow:none;
+    /* background-image: url(cupcake2.webp); */
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.cake10 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake10 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+
+
+.cake11 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow: none;
+    /* background-image: url(cupcake3.webp); */
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.cake11 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4 {
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake11 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+
+.cake12 {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    box-shadow:none;
+    /* background-image: url(pastry.jpeg); */
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.cake12 img{
+    width: 100%;
+    height: 80%;
+
+    border-radius: 20px;
+    padding-bottom: 10px;
+    
+    
+}
+h4{
+   
+  position: relative;
+    left: 36%;
+    bottom: 10%;
+    text-decoration: underline;
+}
+.cake12 p {
+    position: relative;
+    left: 220px;
+    bottom: 40px;
+    color: red;
+    
+
+}
+b {
+    position: relative;
+    left: 10px;
+    bottom: 77px;
+    
+    
+}
+.cake h4{
+    margin-bottom: 30px;
+}
+
+/* hover all the images in a sequence way */
+.cake1:hover{
+    box-shadow: 0 0 200px rgb(255, 2, 2);
+    cursor: pointer;
+    z-index: 2;
+}
+.cake2:hover{
+    box-shadow: 0 0 200px rgb(255, 3, 3);
+    cursor: pointer;
+    z-index: 2;
+}
+.cake3:hover{
+    box-shadow: 0 0 200px rgb(250, 2, 2);
+    cursor: pointer;
+    z-index: 2;
+}
+.cake4:hover{
+    box-shadow: 0 0 200px rgb(251, 3, 3);
+    cursor: pointer;
+    z-index: 2;
+}
+.cake5:hover{
+    box-shadow: 0 0 200px rgb(255, 1, 1);
+    cursor: pointer;
+    z-index: 1;
+}
+.cake6:hover{
+    box-shadow: 0 0 200px rgb(255, 0, 0);
+    cursor: pointer;
+    z-index: 1;
+}
+.cake7:hover{
+    box-shadow: 0 0 200px rgb(255, 0, 0);
+    cursor: pointer;
+    z-index: 1;
+}.cake8:hover{
+    box-shadow: 0 0 200px rgb(255, 0, 0);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.cake9:hover{
+    box-shadow: 0 0 200px rgb(255, 1, 1);
+    cursor: pointer;
+    z-index: 1;
+}
+.cake10:hover{
+    box-shadow: 0 0 200px rgb(255, 1, 1);
+    cursor: pointer;
+    z-index: 1;
+}
+.cake11:hover{
+    box-shadow: 0 0 200px rgb(255, 0, 0);
+    cursor: pointer;
+    z-index: 1;
+}.cake12:hover{
+    box-shadow: 0 0 350px rgb(255, 0, 0);
+    cursor: pointer;
+    z-index: 1;
+}
+/* hover video section */
+ .Video1:hover{
+    box-shadow: 0 0 200px rgb(232, 15, 15);
+ }
+ .Video2:hover{
+    box-shadow: 0 0 200px rgb(232, 15, 15);
+ }
+ .Video3:hover{
+    box-shadow: 0 0 200px rgb(232, 15, 15);
+ }
+#foot{
+    height: 430px;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  background-color: rgb(255, 212, 181);
+  position: relative;
+  bottom: 20px;
+  
+}
+.Video1{
+    border-radius: 30px;
+    
+}
+ 
+.Video2{
+    border-radius: 30px;
+    
+}
+
+.Video3{
+    border-radius: 30px;
+    
+}
+/* footer design */
+.foots{
+    height:0%;
+    width: 100%;
+    background-color:rgb(91, 55, 46);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#foot1{
+    
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    flex-wrap: wrap;
+
+}
+.icon{
+    display: flex;
+    justify-content: left;
+    
+    flex-wrap: wrap;
+}
+.foot2{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+#foot3{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-right: 50px;
+    flex-wrap: wrap;
+}
+
+/* hover footer section */
+.foots a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+    
+
+    
+
+
